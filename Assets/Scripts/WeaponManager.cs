@@ -10,12 +10,21 @@ namespace DecoratorPattern
 {
     public class WeaponManager : MonoBehaviour
     {
+        /// <summary>
+        /// A list of added weapon features (decorators).
+        /// </summary>
         private List<string> addedFeatures = new List<string>();
+        
+        /// <summary>
+        /// A dictionary to map card types to corresponding weapon decorators.
+        /// </summary>
         private Dictionary<Card.CardType, Func<Weapon, Weapon>> _decorators;
         
+        [Tooltip("Data representing the basic weapon configuration.")]
         [SerializeField]
         private WeaponData _basicWeaponData;
 
+        [Tooltip("UI text element to display the current weapon's features.")]
         [SerializeField]
         private TMP_Text weaponStatsText;
 
@@ -37,6 +46,10 @@ namespace DecoratorPattern
             };
         }
 
+        /// <summary>
+        /// Adds a weapon decorator based on the selected card type.
+        /// </summary>
+        /// <param name="cardType">The card type representing the feature to be added to the weapon.</param>
         public void AddDecorator(Card.CardType cardType)
         {
             if (_decorators.ContainsKey(cardType))
@@ -52,11 +65,17 @@ namespace DecoratorPattern
             }
         }
 
+        /// <summary>
+        /// Fires the current weapon with all its applied decorators.
+        /// </summary>
         public void FireWeapon()
         {
             CurrentWeapon.Fire();
         }
 
+        /// <summary>
+        /// Updates the displayed weapon statistics, showing all applied features.
+        /// </summary>
         private void UpdateWeaponStats()
         {
             var stats = new StringBuilder("Current Weapon Features:\n");

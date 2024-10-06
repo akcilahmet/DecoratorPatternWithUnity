@@ -7,6 +7,10 @@ namespace DecoratorPattern
     {
         private WeaponManager _weaponManager;
 
+        /// <summary>
+        /// Sets the WeaponManager reference, which is responsible for managing the weapon and its features.
+        /// </summary>
+        /// <param name="weaponManager">The WeaponManager instance to be set.</param>
         public void SetWeaponManager(WeaponManager weaponManager)
         {
             _weaponManager = weaponManager;
