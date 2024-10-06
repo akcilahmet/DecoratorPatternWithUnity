@@ -764,7 +764,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5125f9451aba4ada82ab11dc4104802a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 336897029}
+  _canvas: {fileID: 336897029}
 --- !u!114 &773743620
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -893,7 +893,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5125f9451aba4ada82ab11dc4104802a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 336897029}
+  _canvas: {fileID: 336897029}
 --- !u!225 &902363123
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -1235,7 +1235,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5125f9451aba4ada82ab11dc4104802a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 336897029}
+  _canvas: {fileID: 336897029}
 --- !u!225 &1074097099
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -1686,7 +1686,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5125f9451aba4ada82ab11dc4104802a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 336897029}
+  _canvas: {fileID: 336897029}
 --- !u!225 &1879774745
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -1802,7 +1802,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5125f9451aba4ada82ab11dc4104802a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 336897029}
+  _canvas: {fileID: 336897029}
 --- !u!225 &1890685976
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -1917,7 +1917,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5125f9451aba4ada82ab11dc4104802a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 336897029}
+  _canvas: {fileID: 336897029}
 --- !u!114 &1950339225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1999,13 +1999,13 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1266032055}
   - {fileID: 773743618}
   - {fileID: 1950339222}
   - {fileID: 1879774742}
   - {fileID: 1890685973}
   - {fileID: 1074097096}
   - {fileID: 902363120}
-  - {fileID: 1266032055}
   - {fileID: 558578896}
   - {fileID: 255902505}
   - {fileID: 1484376912}
