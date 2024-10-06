@@ -33,7 +33,8 @@ In this project, we show how various weapon types can be dynamically enhanced wi
         │   │   ├── RapidFireDecorator.cs  
         │   │   ├── RegenDecorator.cs  
         │   │   ├── SpellCasterDecorator.cs     
-        │   │   └── ShieldDecorator.cs   
+        │   │   ├── ShieldDecorator.cs  
+        │   │   └── WeaponDecorator.cs   
         │   ├── UI/          
         │   │   ├── DragHandler.cs 
         │   │   └── DropHandler.cs  
